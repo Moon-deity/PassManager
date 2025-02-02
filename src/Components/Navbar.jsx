@@ -10,7 +10,7 @@ const Navbar = () => {
       <ul className="flex text-xl text-black gap-12">
         <li>
           <a href="https://instagram.com/harshit_030207" target='blank'>
-            <img src="instagram.svg" alt="instagram" className='h-8'/>
+            <img src="../../public/instagram.svg" alt="instagram" className='h-8'/>
           </a>
         </li>
         <li>
