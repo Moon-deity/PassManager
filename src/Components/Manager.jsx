@@ -117,7 +117,7 @@ const Manager = () => {
       {/* this is the main manager */}
       <div className="container flex flex-col gap-6 mx-auto max-w-4xl">
         <input
-          className="px-2 mx-4 md:mx-0 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white"
+          className="px-2 mx-2 md:mx-0 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white"
           type="text"
           placeholder="Website name"
           name="site"
