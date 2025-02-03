@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react";
 import './App.css'
 import Navbar from './Components/Navbar'
 import Manager from './Components/Manager'
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Manager/>
       <Footer/>
+      <Analytics/>
     </>
   )
 }
