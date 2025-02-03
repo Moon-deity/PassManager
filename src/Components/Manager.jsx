@@ -117,7 +117,7 @@ const Manager = () => {
       {/* this is the main manager */}
       <div className="container flex flex-col gap-6 mx-auto max-w-4xl">
         <input
-          className="px-2 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white"
+          className="px-2 mx-4 md:mx-0 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white"
           type="text"
           placeholder="Website name"
           name="site"
@@ -126,7 +126,7 @@ const Manager = () => {
         />
         <div className="flex flex-col md:flex-row gap-6 md:gap-4">
           <input
-            className="px-2 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white w-full"
+            className="px-2 mx-4 md:mx-0 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white w-auto md:w-full"
             type="text"
             placeholder="Username"
             name="username"
@@ -134,7 +134,7 @@ const Manager = () => {
             onChange={handleChange}
           />
           <input
-            className="px-2 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white w-full"
+            className="px-2 mx-4 md:mx-0 text-lg text-gray-700 border-2 rounded-full border-violet-900 bg-white w-auto md:w-full"
             type="password"
             placeholder="Password"
             name="password"
